@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap');
+
+
+body{
+	margin:0;
+	font-family: 'skills', sans-serif;
+}
+
+header{
+	background-color: #dddddd;
+
+}
+.logo{
+  margin:0 auto;
+  display: block;
+}
+.home-hero{
+background-image: url(images/waves.jpg);
+background-position: bottom;
+background-size: cover;
+}
+.hero{
+  margin:0 auto;
+  display: block;
+  background-color: white;
+  border-radius: 50%
+}
+h1{
+	text-align:center;
+	margin:0;
+	padding: 20px;
+	font-size: 40px;
+}
+p{
+	font-size: 18px;
+}
+nav{
+	background-color:black;
+	margin:0;
+	border-bottom:1px solid black;
+	border-top: 1px solid black;
+}
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	padding-left:0;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+nav li{
+	display:inline;
+	padding: 5px;
+}
+
+nav a{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	color:#dddddd;
+}
+nav a:active{
+	color:pink;
+}
+
+main{
+	max-width: 1000px;
+	margin: 35px auto;
+	padding-top:25px;
+	background-color:white;
+	padding: 20px;
+	padding-bottom: 25px;
+
+}
+.monster{
+	float: left;
+	max-width: 40%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding-right: 12px
+}
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about ul{
+	overflow: hidden;
+}
+
+footer{
+	clear:both;
+	background-color: orange;
+	color:white;
+	padding: 50px;
+	border-top:3px solid black;
+	display: block;
+	margin: 40px 0 0 0;
+	text-align: center;
+	max-width: 100%;
+
+
+}
+
+.footer-bottom{
+	background-color: orange;
+	padding: 10px;
+	color: #CDEAF8;
+	text-align:center;
+	width: 100%;
+
+}
+.footer1000{
+	padding: 40px 0;
+	color:#ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.icons .fa{
+    color: #ffffff;
+}
+
+
+/*Table Design*/
+
+table{
+	background-color: #eeeeee;
+	border-spacing:0;
+	margin-bottom: 100px;
+}
+th{
+	background-color:White;
+	color:white;
+}
+td,th{
+padding: 10px;
+border: 1px solid #dddddd;
+	line-height: 1.5;
+}
+
+
+.center-text{
+	text-align:center;
+}
+.game-controls{
+	margin-top: 20px;
+	text-align:center;
+}
+
+canvas{
+  background-color: #f1f1f1;
+margin:0 auto;
+display:block;
+background-image:url(images/clouds.jpg);
+border: 3px solid #800080;
+box-shadow: 2px 2px 6px black;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom:1em;
+	display:block;
+	border-radius: 5px;
+}
+#submit{
+	display:block;
+	background-color: lightgray;
+	height: 30px;
+}
+textarea{
+	height: 100px;
+	margin-top: 10px;
+}
+
+form{
+	background-color: #White;
+	border: 1px solid gray;
+	padding: 10px 30px;
+	max-width: 350px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px gray;
+}
+.center-game{
+	margin:0 auto;
+}
+.example{
+	box-shadow: 2px 2px 2px gray;
+	margin: 10px;
+}
+.example:hover{
+	opacity: .8;
+}
+@media only screen and (max-width: 768px){
+	nav li{
+	line-height: 50px;
+	}
+}
